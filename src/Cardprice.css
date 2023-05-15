@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: #289ffb;
+    width: 90%;
+    height: 550px;
+    margin: 120px auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.container:focus{
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.container .card-item{
+    width: 30%;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 35px 17px ;
+    float: left;
+    box-shadow: 0px 0px 10px #ccc;
+    transition: .3s;
+}
+
+.card-item:hover{
+    box-shadow: 0px 0px 10px #ccc;
+    transform: scale(1.02);
+    font-size: 15px;
+    
+}
+
+
+
+.card-item h5{
+    text-align: center;
+    font-size: 15px;
+    opacity: 2;
+    text-transform: uppercase;
+    opacity: .5;
+    margin-top: 5px;
+}
+
+.card-item h2{
+    text-align: center;
+    margin: 15px;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.card-item span{
+    font-size: 12px;
+}
+
+.card-item hr{
+    width: 90%;
+    margin-left: 15px;
+}
+
+.fa-ul{
+    margin: 25px 10px;
+    list-style: none;
+    padding: 0;
+    
+}
+.fa-li > :nth-child(2){
+    font-weight:600 ;
+    font-size: 15px;
+}
+
+.fa-ul .fa-li{
+    margin: 5px;
+    font-size: 14px;
+    /* color: #999; */
+    font-weight: 400;
+    padding: 2px;
+}
+
+.fa-li svg{
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+}
+
+.fa-ul .fa-li-disable{
+    margin: 5px;
+    font-size: 14px;
+    color: #999;
+    font-weight: 400;
+    padding: 2px;
+}
+
+.fa-li-disable svg{
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+}
+
+.login-button{
+    margin-left: 10px;
+    width: 90%;
+    height: 40px;
+    border-radius: 23px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #289ffb;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+}
+
+.login-button:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
